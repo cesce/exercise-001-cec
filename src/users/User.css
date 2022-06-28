@@ -1,0 +1,80 @@
+@media only screen and (min-width: 2000px) {
+  .userContainer {
+    margin: auto;
+    width: 20%;
+    border: 2px solid grey;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+  .userContainer {
+    margin: auto;
+    width: 30%;
+    border: 2px solid grey;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .userContainer {
+    margin: auto;
+    width: 40%;
+    border: 2px solid grey;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .userContainer {
+    margin: auto;
+    width: 60%;
+    border: 2px solid grey;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+  }
+}
+
+.userButton {
+  margin-top: 20px;
+}
+
+.userInfo > * {
+  padding-top: 20px;
+}
+
+.userText {
+  /* margin: auto; */
+  width: 60%;
+  text-align: left;
+  float: left;
+}
+
+.userButtonInstance {
+  color: white;
+  background-color: #008cba;
+  padding: 12px 25px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.userButtonInstance:hover {
+  background-color: white;
+  padding: 11px 24px;
+  color: #008cba;
+  border: 1px solid #008cba;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dataLoad {
+  font-size: 10px;
+  padding-top: 5px;
+}
